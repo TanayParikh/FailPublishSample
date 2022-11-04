@@ -1,14 +1,5 @@
-﻿global using BasicBlazorLibrary.Components.BaseClasses;
-global using BasicBlazorLibrary.Components.Basic;
-global using BasicBlazorLibrary.Helpers;
-global using CommonBasicLibraries.AdvancedGeneralFunctionsAndProcesses.BasicExtensions;
-global using CommonBasicLibraries.CollectionClasses;
+﻿
 global using FailPublishSample;
 global using Microsoft.AspNetCore.Components;
 global using Microsoft.Extensions.DependencyInjection;
 global using System.Windows;
-global using WPFStartupLibrary;
-global using ff = CommonBasicLibraries.AdvancedGeneralFunctionsAndProcesses.FileFunctions.FileFunctions;
-global using bb = CommonBasicLibraries.BasicDataSettingsAndProcesses.BasicDataFunctions;
-global using cc = CommonBasicLibraries.BasicDataSettingsAndProcesses.SColorString;
-global using tt = WPFStartupLibrary.TabHelpers;

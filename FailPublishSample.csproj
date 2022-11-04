@@ -11,9 +11,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.486" />
-		<PackageReference Include="BasicBlazorLibrary" Version="4.0.3" />
-		<PackageReference Include="CommonBasicLibraries" Version="7.0.5" />
-		<PackageReference Include="WPFStartupLibrary" Version="3.0.1" />
 	</ItemGroup>
 
 	

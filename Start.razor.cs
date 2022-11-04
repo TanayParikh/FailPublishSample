@@ -1,9 +1,18 @@
-namespace FailPublishSample;
-public partial class Start
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.Routing;
+
+namespace FailPublishSample
 {
-    public static Action? DoTab { get; set; }
-    protected override void OnInitialized() //could not use the carl franklins video because i would need the id put to the div which usually they don't.  since my way worked before continue using it.
+    public partial class Start
     {
-        DoTab?.Invoke(); //workaround so the focus can work upon loading (if needed).
+        protected override void OnInitialized()
+        {
+            MessageBox.Show($"Initialized.");
+        }
     }
 }
